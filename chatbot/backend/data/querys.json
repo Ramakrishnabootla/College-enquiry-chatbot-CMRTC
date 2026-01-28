@@ -1,0 +1,646 @@
+[
+ {
+  "intent": "welcomegreeting",
+  "questions": [
+   "hii",
+   "hi",
+   "hello",
+   "helo",
+   "help",
+   "please",
+   "guide me"
+  ]
+ },
+ {
+  "intent": "about_college",
+  "questions": [
+   "about college",
+   "about",
+   "college",
+   "about clg",
+   "how is college",
+   "college information",
+   "college info",
+   "clg info",
+   "clg inform"
+  ]
+ },
+ {
+  "intent": "student_strength",
+  "questions": [
+   "strength of students",
+   "number of students in college",
+   "strength of college",
+   "strength of students in college",
+   "how many students are there in college",
+   "total students",
+   "total strength",
+   "total student",
+   "tatal"
+  ]
+ },
+ {
+  "intent": "campus_visit",
+  "questions": [
+   "campus",
+   "campus visit",
+   "visit",
+   "clg visit",
+   "college visit",
+   "college campus visit",
+   "how can i visit college",
+   "when can i visit college",
+   "when can i visit campus"
+  ]
+ },
+ {
+  "intent": "address",
+  "questions": [
+   "address of college",
+   "college address",
+   "clg address",
+   "college location",
+   "location",
+   "locations of college"
+  ]
+ },
+ {
+  "intent": "visit_hours",
+  "questions": [
+   "What are your visiting hours?",
+   "When can I visit the campus?",
+   "What time can I come to visit?",
+   "Campus visiting hours",
+   "Visit Hours",
+   "When is the campus open for visitors?",
+   "What are the college timings?",
+   "College working hours"
+  ]
+ },
+ {
+  "intent": "administration",
+  "questions": [
+   "administration",
+   "admin office details",
+   "administration office details"
+  ]
+ },
+ {
+  "intent": "director",
+  "questions": [
+   "Who is the director of cmrtc",
+   "director"
+  ]
+ },
+ {
+  "intent": "deans",
+  "questions": [
+   "Who is the Dean of cmrtc",
+   "deans",
+   "dean"
+  ]
+ },
+ {
+  "intent": "contact",
+  "questions": [
+   "contact",
+   "contact number",
+   "number",
+   "college number",
+   "phone number",
+   "college phone number",
+   "how to contact",
+   "contact college",
+   "contact clg",
+   "number"
+  ]
+ },
+ {
+  "intent": "course",
+  "questions": [
+   "courses",
+   "course",
+   "course offered",
+   "course in college",
+   "which courses are available",
+   "available courses",
+   "engineering"
+  ]
+ },
+ {
+  "intent": "computer_engineering",
+  "questions": [
+   "computer engineering",
+   "computer engg",
+   "computer"
+  ]
+ },
+ {
+  "intent": "computer_intake",
+  "questions": [
+   "computer intake",
+   "computer engineering intake",
+   "computer seats",
+   "seats in computer"
+  ]
+ },
+ {
+  "intent": "computer_first",
+  "questions": [
+   "computer first year",
+   "FE computer",
+   "computer FE",
+   "computer engineering first year"
+  ]
+ },
+ {
+  "intent": "computer_dsy",
+  "questions": [
+   "computer dsy",
+   "dsy computer"
+  ]
+ },
+ {
+  "intent": "computer_fee",
+  "questions": [
+   "computer fee",
+   "fee of computer engineering",
+   "fee for computer engg",
+   "computer engg fee",
+   "open fee",
+   "OBC fee",
+   "sc fee",
+   "st fee"
+  ]
+ },
+ {
+  "intent": "open_fee",
+  "questions": [
+   "Open fees",
+   "fees of open category",
+   "open category fee",
+   "open fee"
+  ]
+ },
+ {
+  "intent": "obc_fee",
+  "questions": [
+   "obc fees",
+   "obc fee",
+   "fee of obc category",
+   "obc category fees"
+  ]
+ },
+ {
+  "intent": "scst_fee",
+  "questions": [
+   "scst fees",
+   "sc fee",
+   "st fee",
+   "sc fees",
+   "st fees",
+   "fees of sc st caste",
+   "fee of sc caste",
+   "fee of st caste"
+  ]
+ },
+ {
+  "intent": "computer_criteria",
+  "questions": [
+   "Eligibility criteria",
+   "computer eligibility criteria",
+   "admisssion criteria",
+   "minimum marks for admission",
+   "minimum marks required",
+   "eligibility criteria"
+  ]
+ },
+ {
+  "intent": "computer_duration",
+  "questions": [
+   "computer duration",
+   "computer engineering duration",
+   "computer engg duration"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_engineering",
+  "questions": [
+   "cse(aiml) engineering",
+   "csm engg",
+   "aiml"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_intake",
+  "questions": [
+   "cse(aiml) intake",
+   "aiml engineering intake",
+   "csm seats",
+   "seats in csm"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_first",
+  "questions": [
+   "cse(aiml) first year",
+   "FE csm",
+   "csm FE",
+   "aiml engineering first year"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_dsy",
+  "questions": [
+   "cse(aiml) dsy",
+   "dsy csm"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_fee",
+  "questions": [
+   "cse(aiml) fee",
+   "fee of aiml engineering",
+   "fee for csm engg",
+   "cse aiml engg fee",
+   "open fee",
+   "OBC fee",
+   "sc fee",
+   "st fee"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_criteria",
+  "questions": [
+   "Eligibility criteria",
+   "cse(aiml) eligibility criteria",
+   "admisssion criteria",
+   "minimum marks for admission",
+   "minimum marks required",
+   "eligibility criteria"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_duration",
+  "questions": [
+   "cse(aiml) duration",
+   "aiml engineering duration",
+   "csm duration"
+  ]
+ },
+ {
+  "intent": "cse(data science)_engineering",
+  "questions": [
+   "cse(data science) engineering",
+   "csd engg",
+   "csd"
+  ]
+ },
+ {
+  "intent": "cse(data science)_intake",
+  "questions": [
+   "cse(data science) intake",
+   "cse(data science) engineering intake",
+   "csd seats",
+   "seats in csd"
+  ]
+ },
+ {
+  "intent": "cse(data science)_first",
+  "questions": [
+   "cse(data science) first year",
+   "FE cse(data science)",
+   "cse(data science) FE",
+   "cse(data science) engineering first year"
+  ]
+ },
+ {
+  "intent": "cse(data science)_dsy",
+  "questions": [
+   "cse(data science) dsy",
+   "dsy cse(data science)"
+  ]
+ },
+ {
+  "intent": "cse(data science)_fee",
+  "questions": [
+   "cse(data science) fee",
+   "fee of cse(data science) engineering",
+   "fee for csd engg",
+   "csd engg fee",
+   "open fee",
+   "OBC fee",
+   "sc fee",
+   "st fee"
+  ]
+ },
+ {
+  "intent": "cse(data science)_criteria",
+  "questions": [
+   "Eligibility criteria",
+   "civil eligibility criteria",
+   "admisssion criteria",
+   "minimum marks for admission",
+   "minimum marks required",
+   "eligibility criteria"
+  ]
+ },
+ {
+  "intent": "cse(data science)_duration",
+  "questions": [
+   "cse(data science) duration",
+   "cse(data science) engineering duration",
+   "cse(data science) engg duration"
+  ]
+ },
+ {
+  "intent": "ece_engineering",
+  "questions": [
+   "ece engineering",
+   "electronics engg",
+   "electronics and communication engineering"
+  ]
+ },
+ {
+  "intent": "ece_intake",
+  "questions": [
+   "ece intake",
+   "electronics engineering intake",
+   "ece seats",
+   "seats in ece"
+  ]
+ },
+ {
+  "intent": "ece_first",
+  "questions": [
+   "ece first year",
+   "FE ece",
+   "electronics FE",
+   "electronics and Communication engineering first year"
+  ]
+ },
+ {
+  "intent": "electrical_dsy",
+  "questions": [
+   "electrical dsy",
+   "dsy electrical"
+  ]
+ },
+ {
+  "intent": "ece_fee",
+  "questions": [
+   "ece fee",
+   "fee of ece engineering",
+   "fee for ece engg",
+   "electronics engg fee",
+   "open fee",
+   "OBC fee",
+   "sc fee",
+   "st fee"
+  ]
+ },
+ {
+  "intent": "ece_criteria",
+  "questions": [
+   "Eligibility criteria",
+   "ece eligibility criteria",
+   "admisssion criteria",
+   "minimum marks for admission",
+   "minimum marks required",
+   "eligibility criteria"
+  ]
+ },
+ {
+  "intent": "ece_duration",
+  "questions": [
+   "ece duration",
+   "electronics engineering duration",
+   "electronics engg duration"
+  ]
+ },
+ {
+  "intent": "it_engineering",
+  "questions": [
+   "it engineering",
+   "it engg",
+   "it",
+   "information technology",
+   "it department",
+   "information technology engineering",
+   "information technology department",
+   "it branch",
+   "tell me about it",
+   "what is information technology",
+   "it course details"
+  ]
+ },
+ {
+  "intent": "it_placements",
+  "questions": [
+   "it placements",
+   "information technology placements",
+   "it department placements",
+   "it job opportunities",
+   "it placement companies",
+   "it placement package",
+   "it placement salary"
+  ]
+ },
+ {
+  "intent": "it_intake",
+  "questions": [
+   "it intake",
+   "it engineering intake",
+   "it seats",
+   "seats in it",
+   "information technology seats",
+   "seats in information technology",
+   "how many students in it",
+   "it branch capacity"
+  ]
+ },
+ {
+  "intent": "it_first",
+  "questions": [
+   "it first year",
+   "FE it",
+   "it FE",
+   "information technology first year",
+   "it first year seats",
+   "it first year capacity"
+  ]
+ },
+ {
+  "intent": "it_dsy",
+  "questions": [
+   "it dsy",
+   "dsy it",
+   "lateral entry in it",
+   "it le",
+   "direct second year it",
+   "it direct admission"
+  ]
+ },
+ {
+  "intent": "it_fee",
+  "questions": [
+   "it fee",
+   "fee of it",
+   "fee for it",
+   "information technology fee",
+   "fee of information technology",
+   "it course fee",
+   "how much is it fee"
+  ]
+ },
+ {
+  "intent": "it_criteria",
+  "questions": [
+   "it eligibility",
+   "it eligibility criteria",
+   "information technology eligibility criteria",
+   "it admission criteria",
+   "it qualification",
+   "minimum marks for it",
+   "criteria for it admission"
+  ]
+ },
+ {
+  "intent": "it_duration",
+  "questions": [
+   "it duration",
+   "information technology duration",
+   "how long is it course",
+   "it course duration",
+   "years for it",
+   "it engineering duration"
+  ]
+ },
+ {
+  "intent": "admission_enquiry",
+  "questions": [
+   "admission",
+   "admission process",
+   "admission inquiry",
+   "admission enquiry",
+   "admission date",
+   "admission last date",
+   "admission time"
+  ]
+ },
+ {
+  "intent": "scholorship",
+  "questions": [
+   "scholorship",
+   "college scholorship",
+   "scholorship fees",
+   "scholorship date",
+   "scholorship form",
+   "scholorship contact",
+   "scholorship amount",
+   "scholarship information",
+   "how to get scholarship",
+   "financial aid",
+   "grants",
+   "scholarship details",
+   "types of scholarships"
+  ]
+ },
+ {
+  "intent": "placements_overview",
+  "questions": [
+   "placement statistics",
+   "placement companies list",
+   "which companies visit campus",
+   "highest package",
+   "top recruiters",
+   "salary packages",
+   "placement companies",
+   "detailed placement information",
+   "placement statistics and companies",
+   "placement records",
+   "placement performance",
+   "placement success rate"
+  ]
+ },
+ {
+  "intent": "endgreeting",
+  "questions": [
+   "bye",
+   "by",
+   "byee"
+  ]
+ },
+ {
+  "intent": "thankgreet",
+  "questions": [
+   "thankyou",
+   "thanks",
+   "thank you"
+  ]
+ },
+ {
+  "intent": "placements",
+  "questions": [
+   "placements",
+   "placement",
+   "campus placements",
+   "college placements",
+   "general placements",
+   "overall placements",
+   "college placement details",
+   "college placement information",
+   "college placement cell",
+   "college placement services"
+  ]
+ },
+ {
+  "intent": "computer_placements",
+  "questions": [
+   "computer engineering placements",
+   "cse placements",
+   "computer science placements",
+   "computer department placements",
+   "cse branch placements",
+   "computer science placement details"
+  ]
+ },
+ {
+  "intent": "cse(aiml)_placements",
+  "questions": [
+   "aiml placements",
+   "artificial intelligence placements",
+   "machine learning placements",
+   "cse aiml placement details",
+   "ai ml branch placements"
+  ]
+ },
+ {
+  "intent": "cse(data science)_placements",
+  "questions": [
+   "data science placements",
+   "ds placements",
+   "cse data science placement details",
+   "data science branch placements"
+  ]
+ },
+ {
+  "intent": "it_placements",
+  "questions": [
+   "it placements",
+   "information technology placements",
+   "it branch placements",
+   "it department placements"
+  ]
+ },
+ {
+  "intent": "ece_placements",
+  "questions": [
+   "ece placements",
+   "electronics placements",
+   "electronics and communication placements",
+   "ece branch placements",
+   "electronics department placements"
+  ]
+ }
+]

@@ -1,0 +1,1300 @@
+[
+    {
+     "tag": "welcomegreeting",
+     "questions": [
+      "hii",
+      "hi",
+      "hello",
+      "helo",
+      "help",
+      "please",
+      "guide me"
+     ],
+     "response": [
+        "Hello Buddie Select Any Of the Querrie."
+    ],
+     "related": [
+      {
+       "text": "About College",
+       "tag": "about_college"
+      },
+      {
+        "text": "Administration",
+        "tag": "adminstration"
+      },
+      {
+       "text": "Contact",
+       "tag": "contact"
+      },
+      {
+       "text": "Course",
+       "tag": "course"
+      },
+      {
+       "text": "Placements",
+       "tag": "placements"
+      },
+      {
+       "text": "Admission Enquiry",
+       "tag": "admission_enquiry"
+      },
+      {
+       "text": "Scholorship",
+       "tag": "scholorship"
+      }
+     ]
+    },
+    {
+     "tag": "about_college",
+     "questions": [
+      "about college",
+      "about",
+      "college",
+      "about clg",
+      "how is college",
+      "college information",
+      "college info",
+      "clg info",
+      "clg inform"
+     ],
+     "response": [
+         "Welcome to CMR Technical Campus, Hyderabad—a premier institution committed to excellence in engineering education and research. We are dedicated to nurturing innovative minds and preparing students for successful careers."
+    ],
+     "related": [
+      {
+       "text": "Student Strength",
+       "tag": "student_strength"
+      },
+      {
+       "text": "Address",
+       "tag": "address"
+      },
+      {
+       "text": "Campus visit",
+       "tag": "campus_visit"
+      }
+     ]
+    },
+    {
+     "tag": "student_strength",
+     "questions": [
+      "strength of students",
+      "number of students in college",
+      "strength of college",
+      "strength of students in college",
+      "how many students are there in college",
+      "total students",
+      "total strength",
+      "total student",
+      "tatal"
+     ],
+     "response": [
+      "We have 1500+ students studying with us."
+     ],
+     "related": []
+    },
+    {
+     "tag": "campus_visit",
+     "questions": [
+      "campus",
+      "campus visit",
+      "visit",
+      "clg visit",
+      "college visit",
+      "college campus visit",
+      "how can i visit college",
+      "when can i visit college",
+      "when can i visit campus"
+     ],
+     "response": [
+      "To visit the campus you can proceed by choosing further below options."
+     ],
+     "related": [
+      {
+       "text": "Address",
+       "tag": "address"
+      },
+      {
+       "text": "Visit Hours",
+       "tag": "visit_hours"
+      }
+     ]
+    },
+    {
+     "tag": "address",
+     "questions": [
+      "address of college",
+      "college address",
+      "clg address",
+      "college location",
+      "location",
+      "locations of college"
+     ],
+     "response": [
+        "The address of CMRTC is: CMR Technical Campus (CMRTC) is located at Kandlakoya Village, Medchal Road, Hyderabad – 501401, Telangana, India."
+    ],
+     "related": []
+    },
+    {
+     "tag": "visit_hours",
+     "questions": [
+      "What are your visiting hours?",
+      "When can I visit the campus?",
+      "What time can I come to visit?",
+      "Campus visiting hours",
+      "Visit Hours",
+      "When is the campus open for visitors?",
+      "What are the college timings?",
+      "College working hours"
+     ],
+     "response": [
+      "You can visit us between 9:00 AM to 5:00 PM from MONDAY to SATURDAY."
+     ],
+     "related": []
+    },
+    {
+        "tag": "adminstration",  
+        "questions": [    
+          "administration",
+          "admin office details",
+          "administation office details"
+        ],
+        "response": [     
+          "Select what You Want To know more About Administation"
+        ],
+        "related": [      
+          {
+            "text": "Director",  
+            "tag": "director"
+          },
+          {
+            "text": "Deans",
+            "tag" : "deans"
+          }
+        ]
+    },
+    {
+        
+         "tag": "director",
+        "questions": [
+           "Who is the direcotr of cmrtc",
+           "direcotr"
+        ],
+        "response": [
+            "Dr. A. Raji Reddy, is a 1990 Batch Mechanical Engineer from Nagpur University.  He obtained his Masters' Degree from Regional Engineering College [NIT] Warangal in the year 1992 and Doctoral degree from Osmania University in Mechanical Engineering with Solar Energy as specialization in the year 2008."
+        ],
+        "related": []
+        
+    },
+    {
+        
+        "tag": "deans",
+       "questions": [
+          "Who is the Dean of cmrtc",
+          "deans",
+          "dean"
+       ],
+       "response": [
+           "CMRTC has 4 deans select the other deans u want to know"
+       ],
+       "related": []
+       
+   },
+    {
+     "tag": "contact",
+     "questions": [
+      "contact",
+      "contact number",
+      "number",
+      "college number",
+      "phone number",
+      "college phone number",
+      "how to contact",
+      "contact college",
+      "contact clg",
+      "number"
+     ],
+     "response": [
+      "You can contact us on: 9247033441, 9100760559, or 9100470559, or via email at admissions@cmrtc.ac.in or info@cmrtc.ac.in."
+     ],
+     "related": []
+    },
+    {
+     "tag": "course",
+     "questions": [
+      "courses",
+      "course",
+      "course offered",
+      "course in college",
+      "which courses are available",
+      "available courses",
+      "engineering"
+     ],
+     "response": [
+      "CMR Technical Campus offers several engineering programs. Please select a course to know more details:"
+     ],
+     "related": [
+      {
+       "text": "Computer Engineering",
+       "tag": "computer_engineering"
+      },
+      {
+       "text": "CSE(AIML) Engineering",
+       "tag": "cse(aiml)_engineering"
+      },
+      {
+       "text": "cse(data science) Engineering",
+       "tag": "cse(data science)_engineering"
+      },
+      {
+       "text": "Electrical Engineering",
+       "tag": "electrical_engineering"
+      },
+      {
+       "text": "Information Technology",
+       "tag": "it_engineering"
+      }
+     ]
+    },
+    {
+     "tag": "computer_engineering",
+     "questions": [
+      "computer engineering",
+      "computer engg",
+      "computer"
+     ],
+     "response": [
+      "What do you want to know about Computer engineering? Please choose further to know."
+     ],
+     "related": [
+      {
+       "text": "Intake",
+       "tag": "computer_intake"
+      },
+      {
+       "text": "Fee Structure",
+       "tag": "computer_fee"
+      },
+      {
+       "text": "Eligibility Criteria",
+       "tag": "computer_criteria"
+      },
+      {
+       "text": "Course Duration",
+       "tag": "computer_duration"
+      },
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "computer_intake",
+     "questions": [
+      "computer intake",
+      "computer engineering intake",
+      "computer seats",
+      "seats in computer"
+     ],
+     "response": [
+      "Please select one from below options"
+     ],
+     "related": [
+      {
+       "text": "FE",
+       "tag": "computer_first"
+      },
+      {
+       "text": "DSY",
+       "tag": "computer_dsy"
+      }
+     ]
+    },
+    {
+     "tag": "computer_first",
+     "questions": [
+      "computer first year",
+      "FE computer",
+      "computer FE",
+      "computer engineering first year"
+     ],
+     "response": [
+      "CMRTC has intake of 800 students for First Year"
+     ],
+     "related": []
+    },
+    {
+     "tag": "computer_dsy",
+     "questions": [
+      "computer dsy",
+      "dsy computer"
+     ],
+     "response": [
+      "CMRTC has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+     ],
+     "related": []
+    },
+    {
+     "tag": "computer_fee",
+     "questions": [
+      "computer fee",
+      "fee of computer engineering",
+      "fee for computer engg",
+      "computer engg fee",
+      "open fee",
+      "OBC fee",
+      "sc fee",
+      "st fee"
+     ],
+     "response": [
+      "Select a category to know the fee"
+     ],
+     "related": [
+      {
+       "text": "OPEN",
+       "tag": "open_fee"
+      },
+      {
+       "text": "OBC",
+       "tag": "obc_fee"
+      },
+      {
+       "text": "SC/ST",
+       "tag": "scst_fee"
+      }
+     ]
+    },
+    {
+     "tag": "open_fee",
+     "questions": [
+      "Open fees",
+      "fees of open category",
+      "open category fee",
+      "open fee"
+     ],
+     "response": [
+      "Fee for an OPEN category student is : RS 72000 (Excluding university exam fee)"
+     ],
+     "related": []
+    },
+    {
+     "tag": "obc_fee",
+     "questions": [
+      "obc fees",
+      "obc fee",
+      "fee of obc category",
+      "obc category fees"
+     ],
+     "response": [
+      "Fee for an OBC category student is : RS 55000 (Excluding university exam fee)"
+     ],
+     "related": []
+    },
+    {
+     "tag": "scst_fee",
+     "questions": [
+      "scst fees",
+      "sc fee",
+      "st fee",
+      "sc fees",
+      "st fees",
+      "fees of sc st caste",
+      "fee of sc caste",
+      "fee of st caste"
+     ],
+     "response": [
+      "Fee for a SC/ST category student is RS ABC (Excluding university exam fee)"
+     ],
+     "related": []
+    },
+    {
+     "tag": "computer_criteria",
+     "questions": [
+      "Eligibility criteria",
+      "computer eligibility criteria",
+      "admisssion criteria",
+      "minimum marks for admission",
+      "minimum marks required",
+      "eligibility criteria"
+     ],
+     "response": [
+      "The criteria for Engineering in CMRTC are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+     ],
+     "related": []
+    },
+    {
+     "tag": "computer_duration",
+     "questions": [
+      "computer duration",
+      "computer engineering duration",
+      "computer engg duration"
+     ],
+     "response": [
+      "The duration for the Engineering offered at CMRTC is 4 years."
+     ],
+     "related": [
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "cse(aiml)_engineering",
+     "questions": [
+      "cse(aiml) engineering",
+      "csm engg",
+      "aiml"
+     ],
+     "response": [
+      "What do you want to know about cse(aiml) engineering? Please choose further to know."
+     ],
+     "related": [
+      {
+       "text": "Intake",
+       "tag": "cse(aiml)_intake"
+      },
+      {
+       "text": "Fee Structure",
+       "tag": "cse(aiml)_fee"
+      },
+      {
+       "text": "Eligibility Criteria",
+       "tag": "cse(aiml)_criteria"
+      },
+      {
+       "text": "Course Duration",
+       "tag": "cse(aiml)_duration"
+      },
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "cse(aiml)_intake",
+     "questions": [
+      "cse(aiml) intake",
+      "aiml engineering intake",
+      "csm seats",
+      "seats in csm"
+     ],
+     "response": [
+      "Please select one from below options"
+     ],
+     "related": [
+      {
+       "text": "FE",
+       "tag": "cse(aiml)_first"
+      },
+      {
+       "text": "DSY",
+       "tag": "cse(aiml)_dsy"
+      }
+     ]
+    },
+    {
+     "tag": "cse(aiml)_first",
+     "questions": [
+      "cse(aiml) first year",
+      "FE csm",
+      "csm FE",
+      "aiml engineering first year"
+     ],
+     "response": [
+      "CMRTC has intake of 120 students for First Year"
+     ],
+     "related": []
+    },
+    {
+     "tag": "cse(aiml)_dsy",
+     "questions": [
+      "cse(aiml) dsy",
+      "dsy csm"
+     ],
+     "response": [
+      "CMRTC has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+     ],
+     "related": []
+    },
+    {
+     "tag": "cse(aiml)_fee",
+     "questions": [
+      "cse(aiml) fee",
+      "fee of aiml engineering",
+      "fee for csm engg",
+      "cse aiml engg fee",
+      "open fee",
+      "OBC fee",
+      "sc fee",
+      "st fee"
+     ],
+     "response": [
+      "Select a category to know the fee"
+     ],
+     "related": [
+      {
+       "text": "OPEN",
+       "tag": "open_fee"
+      },
+      {
+       "text": "OBC",
+       "tag": "obc_fee"
+      },
+      {
+       "text": "SC/ST",
+       "tag": "scst_fee"
+      }
+     ]
+    },
+    {
+     "tag": "cse(aiml)_criteria",
+     "questions": [
+      "Eligibility criteria",
+      "cse(aiml) eligibility criteria",
+      "admisssion criteria",
+      "minimum marks for admission",
+      "minimum marks required",
+      "eligibility criteria"
+     ],
+     "response": [
+      "The criteria for Engineering in CMRTC are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+     ],
+     "related": []
+    },
+    {
+     "tag": "cse(aiml)_duration",
+     "questions": [
+      "cse(aiml) duration",
+      "aiml engineering duration",
+      "csm duration"
+     ],
+     "response": [
+      "The duration for the Engineering offered at CMRTC is 4 years."
+     ],
+     "related": [
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "cse(data science)_engineering",
+     "questions": [
+      "cse(data science) engineering",
+      "csd engg",
+      "csd"
+     ],
+     "response": [
+      "What do you want to know about cse(data science) engineering? Please choose further to know."
+     ],
+     "related": [
+      {
+       "text": "Intake",
+       "tag": "cse(data science)_intake"
+      },
+      {
+       "text": "Fee Structure",
+       "tag": "cse(data science)_fee"
+      },
+      {
+       "text": "Eligibility Criteria",
+       "tag": "cse(data science)_criteria"
+      },
+      {
+       "text": "Course Duration",
+       "tag": "cse(data science)_duration"
+      },
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "cse(data science)_intake",
+     "questions": [
+      "cse(data science) intake",
+      "cse(data science) engineering intake",
+      "csd seats",
+      "seats in csd"
+     ],
+     "response": [
+      "Please select one from below options"
+     ],
+     "related": [
+      {
+       "text": "FE",
+       "tag": "cse(data science)_first"
+      },
+      {
+       "text": "DSY",
+       "tag": "cse(data science)_dsy"
+      }
+     ]
+    },
+    {
+     "tag": "cse(data science)_first",
+     "questions": [
+      "cse(data science) first year",
+      "FE cse(data science)",
+      "cse(data science) FE",
+      "cse(data science) engineering first year"
+     ],
+     "response": [
+      "CMRTC has intake of 240 students for First Year"
+     ],
+     "related": []
+    },
+    {
+     "tag": "cse(data science)_dsy",
+     "questions": [
+      "cse(data science) dsy",
+      "dsy cse(data science)"
+     ],
+     "response": [
+      "CMRTC has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+     ],
+     "related": []
+    },
+    {
+     "tag": "cse(data science)_fee",
+     "questions": [
+      "cse(data science) fee",
+      "fee of cse(data science) engineering",
+      "fee for csd engg",
+      "csd engg fee",
+      "open fee",
+      "OBC fee",
+      "sc fee",
+      "st fee"
+     ],
+     "response": [
+      "Select a category to know the fee"
+     ],
+     "related": [
+      {
+       "text": "OPEN",
+       "tag": "open_fee"
+      },
+      {
+       "text": "OBC",
+       "tag": "obc_fee"
+      },
+      {
+       "text": "SC/ST",
+       "tag": "scst_fee"
+      }
+     ]
+    },
+    {
+     "tag": "cse(data science)_criteria",
+     "questions": [
+      "Eligibility criteria",
+      "civil eligibility criteria",
+      "admisssion criteria",
+      "minimum marks for admission",
+      "minimum marks required",
+      "eligibility criteria"
+     ],
+     "response": [
+      "The criteria for Engineering in CMRTC are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+     ],
+     "related": []
+    },
+    {
+     "tag": "cse(data science)_duration",
+     "questions": [
+      "cse(data science) duration",
+      "cse(data science) engineering duration",
+      "cse(data science) engg duration"
+     ],
+     "response": [
+      "The duration for the Engineering offered at CMRTC is 4 years."
+     ],
+     "related": [
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "ece_engineering",
+     "questions": [
+      "ece engineering",
+      "electronics engg",
+      "electronics and communication engineering"
+     ],
+     "response": [
+      "What do you want to know about Electrical engineering? Please choose further to know."
+     ],
+     "related": [
+      {
+       "text": "Intake",
+       "tag": "ece_intake"
+      },
+      {
+       "text": "Fee Structure",
+       "tag": "ece_fee"
+      },
+      {
+       "text": "Eligibility Criteria",
+       "tag": "ece_criteria"
+      },
+      {
+       "text": "Course Duration",
+       "tag": "ece_duration"
+      },
+      {
+       "text": "Admission",
+       "tag": "ece_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "ece_intake",
+     "questions": [
+      "ece intake",
+      "electronics engineering intake",
+      "ece seats",
+      "seats in ece"
+     ],
+     "response": [
+      "Please select one from below options"
+     ],
+     "related": [
+      {
+       "text": "FE",
+       "tag": "ece_first"
+      },
+      {
+       "text": "DSY",
+       "tag": "ece_dsy"
+      }
+     ]
+    },
+    {
+     "tag": "ece_first",
+     "questions": [
+      "ece first year",
+      "FE ece",
+      "electronics FE",
+      "electronics and Communication engineering first year"
+     ],
+     "response": [
+      "CMRTC has intake of 120 students for First Year"
+     ],
+     "related": []
+    },
+    {
+     "tag": "electrical_dsy",
+     "questions": [
+      "electrical dsy",
+      "dsy electrical"
+     ],
+     "response": [
+      "CMRTC has intake of 9 students for DSY[NOTE: Intake number varies every academic year.]"
+     ],
+     "related": []
+    },
+    {
+     "tag": "ece_fee",
+     "questions": [
+      "ece fee",
+      "fee of ece engineering",
+      "fee for ece engg",
+      "electronics engg fee",
+      "open fee",
+      "OBC fee",
+      "sc fee",
+      "st fee"
+     ],
+     "response": [
+      "Select a category to know the fee"
+     ],
+     "related": [
+      {
+       "text": "OPEN",
+       "tag": "open_fee"
+      },
+      {
+       "text": "OBC",
+       "tag": "obc_fee"
+      },
+      {
+       "text": "SC/ST",
+       "tag": "scst_fee"
+      }
+     ]
+    },
+    {
+     "tag": "ece_criteria",
+     "questions": [
+      "Eligibility criteria",
+      "ece eligibility criteria",
+      "admisssion criteria",
+      "minimum marks for admission",
+      "minimum marks required",
+      "eligibility criteria"
+     ],
+     "response": [
+      "The criteria for Engineering in CMRTC are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+     ],
+     "related": []
+    },
+    {
+     "tag": "ece_duration",
+     "questions": [
+      "ece duration",
+      "electronics engineering duration",
+      "electronics engg duration"
+     ],
+     "response": [
+      "The duration for the Engineering offered at CMRTC is 4 years."
+     ],
+     "related": [
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "it_engineering",
+     "questions": [
+      "it engineering",
+      "it engg",
+      "it",
+      "information technology",
+      "it department",
+      "information technology engineering",
+      "information technology department",
+      "it branch",
+      "tell me about it",
+      "what is information technology",
+      "it course details"
+     ],
+     "response": [
+      "Information Technology (IT) at CMRTC is a 4-year B.Tech program that focuses on computer systems, software development, data management, networking, and emerging technologies. Our IT department provides state-of-the-art facilities and industry-aligned curriculum."
+     ],
+     "related": [
+      {
+       "text": "Intake",
+       "tag": "it_intake"
+      },
+      {
+       "text": "Fee Structure",
+       "tag": "it_fee"
+      },
+      {
+       "text": "Eligibility Criteria",
+       "tag": "it_criteria"
+      },
+      {
+       "text": "Course Duration",
+       "tag": "it_duration"
+      },
+      {
+       "text": "Placements",
+       "tag": "it_placements"
+      },
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "it_placements",
+     "questions": [
+      "it placements",
+      "information technology placements",
+      "it department placements",
+      "it job opportunities",
+      "it placement companies",
+      "it placement package",
+      "it placement salary"
+     ],
+     "response": [
+      "The IT department at CMRTC has an excellent placement record with 85% placement rate. Our students are placed in top companies like TCS, Infosys, Wipro, Accenture, and many more. The average package ranges from 4.5 to 8 LPA, with the highest package being 12 LPA. We have strong industry connections and provide pre-placement training to ensure our students are industry-ready."
+     ],
+     "related": [
+      {
+       "text": "Placement Overview",
+       "tag": "placements_overview"
+      }
+     ]
+    },
+    {
+     "tag": "it_intake",
+     "questions": [
+      "it intake",
+      "it engineering intake",
+      "it seats",
+      "seats in it",
+      "information technology seats",
+      "seats in information technology",
+      "how many students in it",
+      "it branch capacity"
+     ],
+     "response": [
+      "Please select one from below options to know about IT branch intake:"
+     ],
+     "related": [
+      {
+       "text": "First Year",
+       "tag": "it_first"
+      },
+      {
+       "text": "Direct Second Year",
+       "tag": "it_dsy"
+      }
+     ]
+    },
+    {
+     "tag": "it_first",
+     "questions": [
+      "it first year",
+      "FE it",
+      "it FE",
+      "information technology first year",
+      "it first year seats",
+      "it first year capacity"
+     ],
+     "response": [
+      "CMRTC has intake of 120 students for First Year Information Technology Engineering."
+     ],
+     "related": []
+    },
+    {
+     "tag": "it_dsy",
+     "questions": [
+      "it dsy",
+      "dsy it",
+      "lateral entry in it",
+      "it le",
+      "direct second year it",
+      "it direct admission"
+     ],
+     "response": [
+      "CMRTC has intake of 12 students for Direct Second Year (DSY) in Information Technology. [NOTE: Intake number varies every academic year.]"
+     ],
+     "related": []
+    },
+    {
+     "tag": "it_fee",
+     "questions": [
+      "it fee",
+      "fee of it",
+      "fee for it",
+      "information technology fee",
+      "fee of information technology",
+      "it course fee",
+      "how much is it fee"
+     ],
+     "response": [
+      "Select a category to know the detailed fee structure for Information Technology:"
+     ],
+     "related": [
+      {
+       "text": "OPEN Category",
+       "tag": "open_fee"
+      },
+      {
+       "text": "OBC Category",
+       "tag": "obc_fee"
+      },
+      {
+       "text": "SC/ST Category",
+       "tag": "scst_fee"
+      }
+     ]
+    },
+    {
+     "tag": "it_criteria",
+     "questions": [
+      "it eligibility",
+      "it eligibility criteria",
+      "information technology eligibility criteria",
+      "it admission criteria",
+      "it qualification",
+      "minimum marks for it",
+      "criteria for it admission"
+     ],
+     "response": [
+      "Eligibility criteria for IT Engineering at CMRTC: 1) Minimum 50% aggregate in 10+2 (PCM), 2) Valid EAMCET/JEE score, 3) Compulsory subjects: Physics & Mathematics with either Chemistry or Computer Science, 4) Minimum passing marks required in each subject."
+     ],
+     "related": []
+    },
+    {
+     "tag": "it_duration",
+     "questions": [
+      "it duration",
+      "information technology duration",
+      "how long is it course",
+      "it course duration",
+      "years for it",
+      "it engineering duration"
+     ],
+     "response": [
+      "The B.Tech in Information Technology at CMRTC is a 4-year full-time program divided into 8 semesters. Each semester includes theory courses, practical labs, and project work."
+     ],
+     "related": [
+      {
+       "text": "Admission",
+       "tag": "admission_enquiry"
+      }
+     ]
+    },
+    {
+     "tag": "admission_enquiry",
+     "questions": [
+      "admission",
+      "admission process",
+      "admission inquiry",
+      "admission enquiry",
+      "admission date",
+      "admission last date",
+      "admission time"
+     ],
+     "response": [
+      "Please follow the link for admission enquiry process- https://www.cmrtcnashik.edu.in/admission.php"
+     ],
+     "related": []
+    },
+    {
+     "tag": "scholorship",
+     "questions": [
+      "scholorship",
+      "college scholorship",
+      "scholorship fees",
+      "scholorship date",
+      "scholorship form",
+      "scholorship contact",
+      "scholorship amount"
+     ],
+     "response": [
+      "The scholorship is provided to cet enrolled students only. College follows the tsepass scholorships provided by government of Telangana. Click on the link to know more: https://telanganaepass.cgg.gov.in/"
+     ],
+     "related": []
+    },
+    {
+        "tag": "placements_overview",
+      "questions": [
+          "placement details",
+            "placement overview",
+            "placement information",
+            "placement cell",
+            "does the college provide placements",
+            "placement services",
+            "campus placements",
+            "which companies visit campus",
+            "highest package",
+            "top recruiters",
+            "placement statistics",
+            "company list",
+            "salary packages",
+            "placement companies"
+      ],
+      "response": [
+          "CMRTC has an excellent placement record with top companies regularly visiting our campus. Here are the highlights:\n\nTop Recruiting Companies:\n1. Walmart Global Tech (20 LPA)\n2. Randstad India (14.78 LPA)\n3. Siemens EDA (13.6 LPA)\n4. Infosys (9.5 LPA)\n5. SAFERTEK IT Solutions (9 LPA)\n6. KORE.AI Software (8.5 LPA)\n7. Amazon Data Services (8 LPA)\n8. TCS Digital (7 LPA)\n9. Capgemini (5.75 LPA)\n10. Accenture (4.5 LPA)\n\nKey Highlights:\n- Highest Package: 20 LPA (Walmart)\n- Average Package: 4.5-8 LPA\n- Multiple Fortune 500 companies\n- Regular recruiters include TCS, Infosys, Capgemini, Accenture, and many more\n- Strong industry connections with 75+ companies visiting annually"
+      ],
+      "related": [
+        {
+            "text": "IT Placements",
+            "tag": "it_placements"
+        },
+        {
+            "text": "Course Information",
+            "tag": "course"
+        }
+    ]
+    },
+  {
+   "tag": "endgreeting",
+   "questions": [
+    "bye",
+    "by",
+    "byee"
+   ],
+   "response": [
+    "Bye! have a good day. Hope to see you again."
+   ],
+   "related": []
+  },
+  {
+   "tag": "thankgreet",
+   "questions": [
+    "thankyou",
+    "thanks",
+    "thank you"
+   ],
+   "response": [
+    "It's my pleasure to help you. See you soon."
+   ],
+   "related": []
+  },
+  {
+     "tag": "placements",
+     "questions": [
+      "placements",
+      "placement",
+      "campus placements",
+      "college placements",
+      "placement details",
+      "placement information",
+      "placement cell",
+      "placement services",
+      "which companies visit campus",
+      "highest package",
+      "top recruiters",
+      "placement statistics",
+      "company list",
+      "salary packages",
+      "placement companies"
+     ],
+     "response": [
+      "CMRTC has an excellent placement record with top companies regularly visiting our campus. Here are the highlights:\n\nTop Recruiting Companies:\n1. Walmart Global Tech (20 LPA)\n2. Randstad India (14.78 LPA)\n3. Siemens EDA (13.6 LPA)\n4. Infosys (9.5 LPA)\n5. SAFERTEK IT Solutions (9 LPA)\n6. KORE.AI Software (8.5 LPA)\n7. Amazon Data Services (8 LPA)\n8. TCS Digital (7 LPA)\n9. Capgemini (5.75 LPA)\n10. Accenture (4.5 LPA)\n\nKey Highlights:\n- Highest Package: 20 LPA (Walmart)\n- Average Package: 4.5-8 LPA\n- Multiple Fortune 500 companies\n- Regular recruiters include TCS, Infosys, Capgemini, Accenture, and many more\n- Strong industry connections with 75+ companies visiting annually"
+     ],
+     "related": [
+      {
+       "text": "IT Placements",
+       "tag": "it_placements"
+      },
+      {
+       "text": "Computer Placements",
+       "tag": "computer_placements"
+      },
+      {
+       "text": "CSE(AIML) Placements",
+       "tag": "cse(aiml)_placements"
+      },
+      {
+       "text": "CSE(Data Science) Placements",
+       "tag": "cse(data science)_placements"
+      },
+      {
+       "text": "ECE Placements",
+       "tag": "ece_placements"
+      }
+     ]
+    },
+    {
+     "tag": "computer_placements",
+     "questions": [
+      "computer engineering placements",
+      "cse placements",
+      "computer science placements",
+      "computer department placements",
+      "cse branch placements",
+      "computer science placement details"
+     ],
+     "response": [
+      "Computer Science Engineering (CSE) Placement Highlights:\n\nTop Recruiters for CSE:\n1. Walmart Global Tech (20 LPA)\n2. Amazon Data Services (8 LPA)\n3. TCS Digital (7 LPA)\n4. Infosys (9.5 LPA)\n5. Capgemini (5.75 LPA)\n\nKey Statistics:\n- Highest Package: 20 LPA\n- Average Package: 6-10 LPA\n- Placement Rate: 90%\n- Core Technology Roles: Software Developer, Full Stack Developer, DevOps Engineer\n- Major Recruiters: Microsoft, Google, Amazon, TCS, Infosys, Wipro"
+     ],
+     "related": [
+      {
+       "text": "Overall Placements",
+       "tag": "placements"
+      },
+      {
+       "text": "Course Details",
+       "tag": "computer_engineering"
+      }
+     ]
+    },
+    {
+     "tag": "cse(aiml)_placements",
+     "questions": [
+      "aiml placements",
+      "artificial intelligence placements",
+      "machine learning placements",
+      "cse aiml placement details",
+      "ai ml branch placements"
+     ],
+     "response": [
+      "CSE (AI & ML) Placement Highlights:\n\nTop Recruiters for AI&ML:\n1. KORE.AI Software (8.5 LPA)\n2. Siemens EDA (13.6 LPA)\n3. Progress Software (8.13 LPA)\n4. AutoRABIT Software (8 LPA)\n5. NTT DATA (5 LPA)\n\nKey Statistics:\n- Highest Package: 13.6 LPA\n- Average Package: 7-11 LPA\n- Placement Rate: 85%\n- Specialized Roles: AI Engineer, ML Engineer, Data Scientist\n- Major Recruiters: IBM, Intel, NVIDIA, TCS, Infosys"
+     ],
+     "related": [
+      {
+       "text": "Overall Placements",
+       "tag": "placements"
+      },
+      {
+       "text": "Course Details",
+       "tag": "cse(aiml)_engineering"
+      }
+     ]
+    },
+    {
+     "tag": "cse(data science)_placements",
+     "questions": [
+      "data science placements",
+      "ds placements",
+      "cse data science placement details",
+      "data science branch placements"
+     ],
+     "response": [
+      "CSE (Data Science) Placement Highlights:\n\nTop Recruiters for Data Science:\n1. Randstad India (14.78 LPA)\n2. EY Global (5.25 LPA)\n3. PwC Services (4 LPA)\n4. Vardaan Data Sciences (4.2 LPA)\n5. MediaMint (3.2 LPA)\n\nKey Statistics:\n- Highest Package: 14.78 LPA\n- Average Package: 6-9 LPA\n- Placement Rate: 88%\n- Specialized Roles: Data Scientist, Data Analyst, Business Intelligence Developer\n- Major Recruiters: Deloitte, EY, PwC, Accenture, TCS"
+     ],
+     "related": [
+      {
+       "text": "Overall Placements",
+       "tag": "placements"
+      },
+      {
+       "text": "Course Details",
+       "tag": "cse(data science)_engineering"
+      }
+     ]
+    },
+    {
+     "tag": "it_placements",
+     "questions": [
+      "it placements",
+      "information technology placements",
+      "it branch placements",
+      "it department placements"
+     ],
+     "response": [
+      "Information Technology (IT) Placement Highlights:\n\nTop Recruiters for IT:\n1. Planon Software (8 LPA)\n2. TCS Digital (7 LPA)\n3. Capgemini (5.75 LPA)\n4. LTI Mindtree (4.5 LPA)\n5. Tech Mahindra (3.25 LPA)\n\nKey Statistics:\n- Highest Package: 8 LPA\n- Average Package: 5-7 LPA\n- Placement Rate: 92%\n- Core Technology Roles: Software Engineer, System Analyst, IT Consultant\n- Major Recruiters: TCS, Infosys, Capgemini, Tech Mahindra, LTI"
+     ],
+     "related": [
+      {
+       "text": "Overall Placements",
+       "tag": "placements"
+      },
+      {
+       "text": "Course Details",
+       "tag": "it_engineering"
+      }
+     ]
+    },
+    {
+     "tag": "ece_placements",
+     "questions": [
+      "ece placements",
+      "electronics placements",
+      "electronics and communication placements",
+      "ece branch placements",
+      "electronics department placements"
+     ],
+     "response": [
+      "Electronics & Communication (ECE) Placement Highlights:\n\nTop Recruiters for ECE:\n1. Siemens EDA (13.6 LPA)\n2. Foxconn Technology (2.88 LPA)\n3. Automotive Manufacturers (3 LPA)\n4. Polycab India (3 LPA)\n5. NCL Industries (2.4 LPA)\n\nKey Statistics:\n- Highest Package: 13.6 LPA\n- Average Package: 4-6 LPA\n- Placement Rate: 80%\n- Core Industry Roles: Electronics Engineer, VLSI Designer, IoT Developer\n- Major Recruiters: Siemens, Samsung, Foxconn, Automotive Companies"
+     ],
+     "related": [
+      {
+       "text": "Overall Placements",
+       "tag": "placements"
+      },
+      {
+       "text": "Course Details",
+       "tag": "ece_engineering"
+      }
+     ]
+    }
+ ]

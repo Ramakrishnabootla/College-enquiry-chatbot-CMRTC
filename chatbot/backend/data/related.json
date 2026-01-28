@@ -1,0 +1,539 @@
+[
+ {
+  "intent": "welcomegreeting",
+  "related": [
+   {
+    "text": "About College",
+    "tag": "about_college"
+   },
+   {
+    "text": "Administration",
+    "tag": "adminstration"
+   },
+   {
+    "text": "Contact",
+    "tag": "contact"
+   },
+   {
+    "text": "Course",
+    "tag": "course"
+   },
+   {
+    "text": "Placements",
+    "tag": "placements"
+   },
+   {
+    "text": "Admission Enquiry",
+    "tag": "admission_enquiry"
+   },
+   {
+    "text": "Scholorship",
+    "tag": "scholorship"
+   }
+  ]
+ },
+ {
+  "intent": "about_college",
+  "related": [
+   {
+    "text": "Student Strength",
+    "tag": "student_strength"
+   },
+   {
+    "text": "Address",
+    "tag": "address"
+   },
+   {
+    "text": "Campus visit",
+    "tag": "campus_visit"
+   }
+  ]
+ },
+ {
+  "intent": "campus_visit",
+  "related": [
+   {
+    "text": "Address",
+    "tag": "address"
+   },
+   {
+    "text": "Visit Hours",
+    "tag": "visit_hours"
+   }
+  ]
+ },
+ {
+  "intent": "administration",
+  "related": [
+   {
+    "text": "Director",
+    "tag": "director"
+   },
+   {
+    "text": "Deans",
+    "tag": "deans"
+   }
+  ]
+ },
+ {
+  "intent": "course",
+  "related": [
+   {
+    "text": "Computer Engineering",
+    "tag": "computer_engineering"
+   },
+   {
+    "text": "CSE(AIML) Engineering",
+    "tag": "cse(aiml)_engineering"
+   },
+   {
+    "text": "cse(data science) Engineering",
+    "tag": "cse(data science)_engineering"
+   },
+   {
+    "text": "Electrical Engineering",
+    "tag": "electrical_engineering"
+   },
+   {
+    "text": "Information Technology",
+    "tag": "it_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "computer_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "computer_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "computer_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "computer_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "computer_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "computer_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "computer_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "computer_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "computer_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "computer_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "cse(aiml)_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "cse(aiml)_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "cse(aiml)_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "cse(aiml)_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "cse(aiml)_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "cse(aiml)_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "cse(aiml)_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "cse(aiml)_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "cse(aiml)_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "cse(aiml)_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "cse(data science)_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "cse(data science)_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "cse(data science)_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "cse(data science)_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "cse(data science)_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "cse(data science)_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "cse(data science)_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "cse(data science)_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "cse(data science)_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "cse(data science)_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "ece_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "ece_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "ece_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "ece_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "ece_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "ece_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "ece_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "ece_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "ece_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "ece_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "ece_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "it_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "it_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "it_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "it_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "it_duration"
+   },
+   {
+    "text": "Placements",
+    "tag": "it_placements"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "it_placements",
+  "related": [
+   {
+    "text": "Placement Overview",
+    "tag": "placements_overview"
+   }
+  ]
+ },
+ {
+  "intent": "it_intake",
+  "related": [
+   {
+    "text": "First Year",
+    "tag": "it_first"
+   },
+   {
+    "text": "Direct Second Year",
+    "tag": "it_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "it_fee",
+  "related": [
+   {
+    "text": "OPEN Category",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC Category",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST Category",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "it_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "placements_overview",
+  "related": [
+   {
+    "text": "IT Placements",
+    "tag": "it_placements"
+   },
+   {
+    "text": "Course Information",
+    "tag": "course"
+   }
+  ]
+ },
+ {
+  "intent": "placements",
+  "related": [
+   {
+    "text": "IT Placements",
+    "tag": "it_placements"
+   },
+   {
+    "text": "Computer Placements",
+    "tag": "computer_placements"
+   },
+   {
+    "text": "CSE(AIML) Placements",
+    "tag": "cse(aiml)_placements"
+   },
+   {
+    "text": "CSE(Data Science) Placements",
+    "tag": "cse(data science)_placements"
+   },
+   {
+    "text": "ECE Placements",
+    "tag": "ece_placements"
+   }
+  ]
+ },
+ {
+  "intent": "computer_placements",
+  "related": [
+   {
+    "text": "Overall Placements",
+    "tag": "placements"
+   },
+   {
+    "text": "Course Details",
+    "tag": "computer_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "cse(aiml)_placements",
+  "related": [
+   {
+    "text": "Overall Placements",
+    "tag": "placements"
+   },
+   {
+    "text": "Course Details",
+    "tag": "cse(aiml)_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "cse(data science)_placements",
+  "related": [
+   {
+    "text": "Overall Placements",
+    "tag": "placements"
+   },
+   {
+    "text": "Course Details",
+    "tag": "cse(data science)_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "it_placements",
+  "related": [
+   {
+    "text": "Overall Placements",
+    "tag": "placements"
+   },
+   {
+    "text": "Course Details",
+    "tag": "it_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "ece_placements",
+  "related": [
+   {
+    "text": "Overall Placements",
+    "tag": "placements"
+   },
+   {
+    "text": "Course Details",
+    "tag": "ece_engineering"
+   }
+  ]
+ }
+]

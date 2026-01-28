@@ -1,0 +1,82 @@
+{
+    "cutoff_ranks": {
+      "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)": {
+        "OC": 37143,
+        "BOYS": {
+          "BC_A": 76280,
+          "BC_B": 51170,
+          "BC_C": 48979,
+          "BC_D": 48731,
+          "BC_E": 77458,
+          "SC": 133448,
+          "ST": 148450,
+          "EWS": 37143
+        }
+      },
+      "COMPUTER SCIENCE AND ENGINEERING": {
+        "OC": 27438,
+        "BOYS": {
+          "BC_A": 62851,
+          "BC_B": 37699,
+          "BC_C": 98692,
+          "BC_D": 34934,
+          "BC_E": 52286,
+          "SC": 84260,
+          "ST": 95708,
+          "EWS": 29720
+        }
+      },
+      "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY": {
+        "OC": 37931,
+        "BOYS": {
+          "BC_A": 104208,
+          "BC_B": 60853,
+          "BC_C": 37931,
+          "BC_D": 49268,
+          "BC_E": 37931,
+          "SC": 148970,
+          "ST": 152607,
+          "EWS": 45276
+        }
+      },
+      "COMPUTER SCIENCE AND ENGINEERING (AIML)": {
+        "OC": 34895,
+        "BOYS": {
+          "BC_A": 79701,
+          "BC_B": 47878,
+          "BC_C": 117224,
+          "BC_D": 44990,
+          "BC_E": 81240,
+          "SC": 122542,
+          "ST": 150070,
+          "EWS": 35819
+        }
+      },
+      "ELECTRONICS AND COMMUNICATION ENGINEERING": {
+        "OC": 45011,
+        "BOYS": {
+          "BC_A": 102919,
+          "BC_B": 65521,
+          "BC_C": 67846,
+          "BC_D": 65456,
+          "BC_E": 103927,
+          "SC": 148740,
+          "ST": 146847,
+          "EWS": 47126
+        }
+      },
+      "INFORMATION TECHNOLOGY": {
+        "OC": 40460,
+        "BOYS": {
+          "BC_A": 98820,
+          "BC_B": 53152,
+          "BC_C": 40460,
+          "BC_D": 52655,
+          "BC_E": 97668,
+          "SC": 127194,
+          "ST": 149838,
+          "EWS": 40460
+        }
+      }
+    }
+  }
