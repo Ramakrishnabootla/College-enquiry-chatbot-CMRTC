@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "chatbot/frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "chatbot/frontend/build/index.html"
+    }
+  ]
+}
