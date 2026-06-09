@@ -28,7 +28,15 @@ origins = [
     "http://localhost",
     "http://localhost:3000",
     "http://localhost:8000",
+    "https://localhost:3000",
+    "http://localhost:5000",
 ]
+
+# Add environment-based origins for production
+import os
+frontend_url = os.environ.get("FRONTEND_URL")
+if frontend_url:
+    origins.append(frontend_url)
 
 __app.add_middleware(
     CORSMiddleware,
