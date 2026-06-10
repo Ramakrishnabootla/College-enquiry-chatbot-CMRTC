@@ -4,7 +4,7 @@ import "./info.css";
 export default function Info(props) {
   const { className } = props;
   return (
-    <div className="mt-24 ml-10">
+    <div className={`mt-24 ml-10 ${className || ""}`}>
       <div className="container mx-auto px-4 py-6">
         <h1 className="text-2xl font-bold mb-6 text-white">
           JIT Chatbot - College Info &#128218;

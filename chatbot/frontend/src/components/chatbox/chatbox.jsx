@@ -104,17 +104,20 @@ export default function ChatBox(props) {
     locked.current = false;
   }
 
+  // Run once on mount to fetch welcome greeting
   useEffect(() => {
-    if (chats.length === 0) {
-      ChatApi.direct_request("welcomegreeting").then(onDataReceived);
-    }
+    ChatApi.direct_request("welcomegreeting").then(onDataReceived);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-    // Smooth scroll to the bottom when a new message is added
-    setTimeout(() => {
+  // Smooth scroll to the bottom when chats change
+  useEffect(() => {
+    const t = setTimeout(() => {
       if (divRef.current) {
         divRef.current.scrollTo({ top: divRef.current.scrollHeight, behavior: "smooth" });
       }
     }, 100);
+    return () => clearTimeout(t);
   }, [chats]);
 
   return (

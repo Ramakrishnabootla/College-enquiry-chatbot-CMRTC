@@ -2,7 +2,6 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocketchat } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
-import Info from "./components/info/info";
 import ChatBox from "./components/chatbox/chatbox";
 
 
@@ -34,19 +33,6 @@ function App() {
     </div>
     
   );
-  function ExternalLinkButton({ url, text }) {
-  return (
-<div class="container4">
-         <nav>
-            <button>
-            <a href="https://www.cmrtc.ac.in" >CMRTC WEBSITEE </a>
-            </button>
-         </nav>
-       </div>
-
-  );
-  }
-
 }
 
 export default App;
