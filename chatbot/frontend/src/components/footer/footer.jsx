@@ -56,7 +56,7 @@ export default function Footer() {
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-              href="https://linkedin.com/in/ramakrishna-bootla"
+              href="https://www.linkedin.com/in/ramakrishna-bootla-7ba1b5338/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
