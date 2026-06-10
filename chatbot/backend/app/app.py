@@ -24,7 +24,10 @@ except Exception as e:
 __app = FastAPI(title="JITBOT", description="A College Enquiry Chat bot of JIT College Nashik")
 
 # CORS middleware
-origins = [
+import os
+
+# Default local origins
+local_origins = [
     "http://localhost",
     "http://localhost:3000",
     "http://localhost:8000",
@@ -32,16 +35,24 @@ origins = [
     "http://localhost:5000",
 ]
 
-# Add environment-based origins for production
-import os
+# Production origin (set this in Render to your Vercel app URL)
 frontend_url = os.environ.get("FRONTEND_URL")
+
 if frontend_url:
-    origins.append(frontend_url)
+    origins = local_origins + [frontend_url]
+    allow_credentials = True
+    logger.info(f"CORS: allowing origins {origins}")
+else:
+    # If FRONTEND_URL is not set, fall back to permissive CORS for final testing.
+    # Note: allow_credentials must be False when allow_origins is ['*'] per CORS spec.
+    origins = ["*"]
+    allow_credentials = False
+    logger.warning("FRONTEND_URL not set — allowing all origins for testing. Set FRONTEND_URL in Render for production.")
 
 __app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_credentials=True,
+    allow_credentials=allow_credentials,
     allow_methods=["*"],
     allow_headers=["*"],
 )
