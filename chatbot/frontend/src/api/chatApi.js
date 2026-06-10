@@ -12,14 +12,14 @@ export default class ChatApi {
             console.error("API Error:", error);
             return {
                 status: 400,
-                message: `Sorry! The server is not responding. Please make sure the backend server is running at ${API_BASE_URL}`
+                message: "Sorry! The server is currently unavailable. Please try again later."
             };
         }
     }
-    
+
     static async direct_request(klass) {
         try {
-            const response = await fetch(`${API_BASE_URL}/direct/${klass}`);
+            const response = await fetch(`${API_BASE_URL}/direct/${klass}`, { timeout: 10000 });
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -28,7 +28,7 @@ export default class ChatApi {
             console.error("API Error:", error);
             return {
                 status: 400,
-                message: `Sorry! The server is not responding. Please make sure the backend server is running at ${API_BASE_URL}`
+                message: "Sorry! The server is currently unavailable. Please try again later."
             };
         }
     }
