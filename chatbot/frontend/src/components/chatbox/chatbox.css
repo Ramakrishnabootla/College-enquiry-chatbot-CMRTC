@@ -1,17 +1,18 @@
 .chat-box-container {
-    position: absolute;
-    bottom: 1%;
-    right: 1%;
-    height: 690px;
-    width: 400px;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    height: 580px;
+    width: 420px;
     background-color: whitesmoke;
-    border-radius: 15px;
-    box-shadow: 0 0 30px 5px rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    background-image: url("CMRTC_logo.png"); /* Updated path */
+    background-image: url("CMRTC_logo.png");
     background-size: cover;
     background-position: center;
+    z-index: 50;
 }
 
 .chat-box-bottom input {
@@ -19,6 +20,7 @@
     padding: 10px;
     flex: 1;
     outline: none;
+    border: 1px solid #ddd;
 }
 
 .chat-box-bottom button {
@@ -27,6 +29,14 @@
     background-color: rgb(245, 245, 245);
     height: 45px;
     width: 45px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.chat-box-bottom button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
 }
 
 .s2t-mic-btn:hover .s2t-mic-btn-icon {
@@ -40,17 +50,13 @@
 .chat-box-middle {
     overflow-y: auto;
     overflow-wrap: break-word;
-}
-
-
-/*logo in background*/
-
-.chat-box-middle {
     position: relative;
 }
+
 img {
     opacity: 0.1;
 }
+
 .chat-box-middle .logo {
     position: absolute;
     top: 50%;
@@ -60,4 +66,27 @@ img {
     height: 150px;
     opacity: 0.001;
     z-index: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .chat-box-container {
+        height: 500px;
+        width: 90vw;
+        max-width: 420px;
+        bottom: 80px;
+        right: 10px;
+        left: 10px;
+        right: auto;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .chat-box-container {
+        height: 450px;
+        width: 95vw;
+        bottom: 70px;
+        right: 5px;
+    }
 }
