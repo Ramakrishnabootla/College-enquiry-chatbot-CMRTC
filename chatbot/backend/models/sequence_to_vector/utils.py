@@ -1,13 +1,23 @@
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 from data import data
 
+# ensure required NLTK corpora are available at runtime
+try:
+    _stopwords = stopwords.words("english")
+except LookupError:
+    nltk.download("stopwords", quiet=True)
+    nltk.download("punkt", quiet=True)
+    nltk.download("wordnet", quiet=True)
+    _stopwords = stopwords.words("english")
+
 _tokenizer = RegexpTokenizer(r"\w+")
 _lemmatizer = WordNetLemmatizer()
 _stemmer = PorterStemmer()
-_stopwords = stopwords.words("english")
-_stopwords.remove("not")
+if "not" in _stopwords:
+    _stopwords.remove("not")
 
 def sequence_to_token(sequence: str, tokenization: str):
     tokens = [item for item in _tokenizer.tokenize(sequence.lower()) if item not in _stopwords]
